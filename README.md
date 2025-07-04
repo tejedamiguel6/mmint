@@ -107,3 +107,7 @@ window.addEventListener("load", () => {
 ### moved logic in one setTimeout
 
 moving the logic to one setTimeout and waiting for the data to finish loading(price), after, i pushed the content into my results array.
+
+# How to run
+
+after loading up `index.html` the initial script will run, to fulfil the requirements, i created a seperate function that is currently commented out; we will uncomment it out and paste into the console during demo to demonstrate how the script will extract the data from the page

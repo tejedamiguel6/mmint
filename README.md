@@ -73,7 +73,7 @@ window.addEventListener("load", () => {
 window.addEventListener("load", () => {
   setTimeout(() => {
     const products = document.querySelectorAll(".product-card");
-    console.log("---<>", products);
+    console.log("--->", products);
 
     const results = [];
 
@@ -103,4 +103,7 @@ window.addEventListener("load", () => {
   }, 19000);
 });
 ```
-# mmint
+
+### moved logic in one setTimeout
+
+moving the logic to one setTimeout and waiting for the data to finish loading(price), after, i pushed the content into my results array.
